@@ -1,0 +1,130 @@
+.discoverSnippet {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 2vh ;
+    overflow: auto;
+    padding: 20px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.picture {
+    float: left;
+    margin: 1em;
+}
+
+.title {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    margin: 0;
+    white-space: nowrap;
+    text-align: left;
+    width: 59%;
+    margin: 0 auto;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.title span {
+    font-size:19px;
+    color: rgb(83, 8, 8)
+}
+
+.left {
+    overflow: auto;
+    float: left;
+    width: 45%;
+    text-align: left;
+}
+
+.right {
+    overflow: auto;
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+
+.left-left {
+    overflow: auto;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.left-right {
+    overflow: auto;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.right-left {
+    overflow: auto;
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.right-right {
+    overflow: auto;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.left h4{
+    padding: auto;
+}
+
+.right h4{
+    padding: auto;
+}
+
+.price-green{
+    text-align: right;
+    color: green;
+}
+
+.price-red {
+    text-align: right;
+    color: red;
+}
+
+.description {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-right: 1em;
+    margin-left: 0.5em;
+}
+
+.other {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    white-space: nowrap;
+    float: right;
+    margin: 0em 0.5em;
+    text-align: right;
+}
+
+.discoverLink {
+    color: black;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form {
+    width: 57%;
+    background-color: rgb(238, 236, 236);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+}

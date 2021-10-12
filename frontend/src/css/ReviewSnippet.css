@@ -1,0 +1,19 @@
+.username {
+    font-size: 26px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.reviewCount {
+    color: #595959;
+    padding-top: 2px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.reviewText {
+    color: black;
+    text-align: left;
+    margin-right: 15%;
+    margin-top: 5px;
+}

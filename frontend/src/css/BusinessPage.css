@@ -1,0 +1,287 @@
+.background {
+    background-color: #0A663F;
+    border-radius: 5px;
+    margin: 2vh 5vw;
+    overflow: auto;
+}
+
+.leftContent {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    float: left;
+}
+
+.rightContent {
+    justify-content: space-between;
+    margin-right: 1em;
+    float: right;
+}
+
+.businessName {
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    white-space: nowrap;
+}
+
+.subText {
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0.25em 0 0 0;
+}
+
+.cost {
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0.1em 0 0 0;
+    padding-left: 0.23em;
+    letter-spacing: 0.55em;
+    white-space: nowrap;
+    float: left;
+}
+
+.bottomBackground {
+    background-color: white;
+    border-radius: 5px;
+    margin: 2vh 5vw;
+    overflow: auto;
+}
+
+.button {
+
+    background: linear-gradient(90deg, #0BA360 0%, #3CBA92 100%);
+    border-radius: 20px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    padding: 0.7em 1.4em 0.7em 1.4em;
+    margin: 1em 1em 0 0;
+
+}
+
+.button:hover {
+    color: black; 
+}
+
+.line {
+    border: none;
+    color: black;
+    background-color: black;
+    height: 1.5px;
+    margin-top: 1.5em;
+    float: left;
+}
+
+.contactBlue {
+    color: #3575F1;
+}
+
+.contactLine {
+    border: none;
+    height: 1px;
+    color: rgb(95, 95, 95);
+    background-color: rgb(95, 95, 95);
+}
+
+.reviewLine {
+    border: none;
+    height: 1px;
+    color:#9e9e9e;
+    background-color: #9e9e9e;
+    width: 20em;
+    float: left;
+}
+
+.pageSection {
+    display: block;
+    float: left;
+}
+
+.pageSection a {
+    color: black;
+    float: left;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+.pageSection a.active {
+    font-weight: bold;
+}
+
+.pageSection a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pencil {
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.fieldBackground {
+    background-color: white;
+    padding: 0px;
+    margin-top: 8px;
+    border-radius: 10px 10px 10px 10px;
+    overflow: auto;
+    display: inline-block;
+}
+
+.businessInput {
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    white-space: nowrap;
+    padding: 8px;
+}
+
+.timeInput {
+    color: black;
+    font-size: 32px;
+    padding: 15px 11px 7px 11px;
+    border: none;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+}
+
+.timeInput:focus {
+    outline: none;
+}
+
+.timeInput:hover {
+    background-color: #ccc;
+}
+
+.fieldEditText {
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0em 0 0 0;
+    padding: 8px;
+    margin-top: 0;
+    float: left;
+}
+
+.categorySelect {
+    color: black;
+    font-size: 32px;
+    background-color: white;
+    padding: 11px 8px 8px 8px;
+    float: left;
+    border: none
+}
+
+.categorySelect:focus {
+    outline: none;
+}
+
+.editCost {
+    color: rgb(122, 122, 122);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0.1em 0 0 0;
+    white-space: nowrap;
+    float: left;
+    padding-bottom: 4px;
+    direction: rtl;
+    cursor: pointer;
+}
+
+
+.editCost > span {
+   display: inline-block;
+   position: relative;
+   width: 1.1em;
+}
+
+.editCost > span:hover {
+    color: black;
+}
+
+.editCost > span:hover ~ span:before {
+    content: "$";
+    color: black;
+    position: absolute;
+}
+
+.textUpdate {
+    width: 95%;
+    height: 8em;
+    font-size: 16px;
+}
+
+.contactBlue > div > input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contactInput {
+    width: 70%;
+    color: #3575F1;
+    padding: 2px;
+    margin-top: 3px;
+}
+
+.importButton {
+    background: white;
+    background: url('../css/img/yelpLogo.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 30%;
+    border-radius: 20px;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    border: solid 1px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    padding: 0.7em 4.2em 0.7em 1.4em;
+    margin: 1em 1.5em 0 0;
+    float: right;
+}
+
+.importButton:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.review-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    background-color: white;
+    z-index: 2;
+    border-radius: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.review-btn {
+    width: 300px;
+    background: linear-gradient(90deg, #0BA360, #3CBA92);
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

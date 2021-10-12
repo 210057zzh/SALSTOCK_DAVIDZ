@@ -1,0 +1,33 @@
+.search-bar {
+    margin-top: 2.5em;
+    width: 100%;
+    
+}
+
+.search-bar .field{
+    height: 36px;
+    border-radius: 10px 0 0px 10px;
+    border: none;
+    width: 40%;
+    font-size: 36px;
+    padding: 10px 30px;
+}
+
+.search-bar .field:focus {
+    outline: none;
+}
+
+.search-bar .searchButton {
+    color: #282828;
+    background-color: #C9C9C9;
+    font-size: 36px;
+    padding: 3.5px 30px;
+    border: solid;
+    border-color: #C9C9C9;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.search-bar .searchButton:hover {
+    color: #524e4e;
+}

@@ -1,0 +1,286 @@
+.home-search{
+    width: 100vw;
+    height: 41vh;
+}
+.sprout {
+    position: relative;
+    color: white;
+    font-size: 52px;
+    font-weight: bold;
+    padding-top: 10%;
+    width: 100%;
+}
+
+.home {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.lower {
+    height: 49vh;
+}
+
+.login-popup {
+    min-height: 70vh;
+    height: fit-content;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+    width: 40%;
+    background-color: white;
+    z-index: 2;
+    border-radius: 20px;
+    -webkit-transform: translate(-110%, -50%);
+    -moz-transform: translate(-110%, -50%);
+    -ms-transform: translate(-110%, -50%);
+    -o-transform: translate(-110%, -50%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.darkened {
+    position: fixed;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.login-form {
+    margin-top: 1em;
+    margin-bottom:4em;
+}
+
+.login-form input {
+    display: block;
+    border-radius: 5px;
+    margin-top: 1em;
+    border-width: 1px;
+    height: 42px;
+    width: 75%;
+    margin-left: 12.5%;
+    font-size: 24px;
+    padding: 0px;
+    padding-left: 5px;
+    box-sizing: border-box;
+
+}
+
+.login-btn {
+    width: 300px;
+    background: linear-gradient(90deg, #b5b8bb, #d7d8d7);
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login-btn  {
+    margin: 0;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+}
+
+.error {
+    background-color: #df6158;
+    width: 50%;
+    margin: auto;
+    margin-top: 1.5em;
+    height: auto;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.error div {
+    line-height: 32px;
+}
+
+.Signup-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -50%);
+    width: 40%;
+    background-color: white;
+    z-index: 2;
+    min-height: 70vh;
+    height: fit-content;
+    border-radius: 20px;
+    -webkit-transform: translate(10%, -50%);
+    -moz-transform: translate(10%, -50%);
+    -ms-transform: translate(10%, -50%);
+    -o-transform: translate(10%, -50%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.Signup-form {
+    margin-top: 1em;
+    margin-bottom:4em;
+}
+
+.Signup-form input {
+    display: block;
+    border-radius: 5px;
+    margin-top: 1em;
+    border-width: 1px;
+    height: 42px;
+    width: 75%;
+    margin-left: 12.5%;
+    font-size: 24px;
+    padding: 0px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.Signup-btn {
+    width: 300px;
+    background: linear-gradient(90deg, #b5b8bb, #d7d8d7);
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Signup-btn  {
+    margin: 0;
+}
+
+.Signup-btn:hover {
+    cursor: pointer;
+}
+
+.guest-symbol h3{
+    margin: 1%;
+    font-size: 50px;
+    color: rgb(25, 33, 42);
+}
+
+.guest-symbol h4{
+    margin: 1%;
+    font-size: 30px;
+    color:rgb(109, 129, 129);
+}
+
+.guest-symbol p{
+    margin-top: 1%;
+    font-size: 25px;
+    color:rgb(10, 48, 172);
+}
+
+hr{
+    height:2px;
+    margin:0 auto;
+    color:gray;
+    background-color:rgb(64, 129, 160)
+}
+
+.guest-lower p{
+    margin-top: 1%;
+    color:rgb(10, 48, 172);
+}
+
+.CompanyDescription {
+    margin:0 auto;
+}
+
+.loggedin-symbol h3{
+    margin: 1%;
+    text-align: left;
+    font-size: 50px;
+    color: rgb(25, 33, 42);
+}
+
+.loggedin-symbol h4{
+    margin: 1%;
+    text-align: left;
+    font-size: 30px;
+    color:rgb(109, 129, 129);
+}
+
+.loggedin-symbol p{
+    margin-top: 1%;
+    text-align: left;
+    font-size: 25px;
+    color:rgb(10, 48, 172);
+}
+
+.loggedin-symbol {
+    float: left;
+    min-width: 20%;
+    width: max-content;
+    display: block;
+}
+
+.loggedin-lower p{
+    margin-top: 1%;
+    color:rgb(10, 48, 172);
+}
+
+.loggedin-lower {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.loggedin-lower-left {
+    float: left;
+}
+
+.loggedin-price-green{
+    text-align: right;
+    float: right;
+    color: green;
+}
+
+.loggedin-price-red {
+    text-align: right;
+    float: right;
+    color: red;
+}
+
+.loggedin-price-red h3{
+    font-size: 40px;
+    margin: 1%;
+}
+
+.loggedin-price-red h4{
+    font-size: 30px;
+    margin: 1%;
+    display: inline-flex;
+}
+
+.loggedin-price-green h3{
+    font-size: 40px;
+    margin: 1%;
+}
+
+.loggedin-price-green h4{
+    font-size: 30px;
+    margin: 1%;
+    display: inline-flex;
+}
+
+.loggedin-lower-right{
+    float: right;
+}
