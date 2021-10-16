@@ -1,3 +1,5 @@
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/vnVn3bW_9U8/0.jpg)](https://www.youtube.com/watch?v=vnVn3bW_9U8&ab_channel=Faust.ZZH "Video Title")
+click the picture to open demo video
 1. db username and password are by default root root, to change that, navigate to
 davidz_Assignment4_CSCI201/src/main/java/utils/Constants.java
 change dbAddress

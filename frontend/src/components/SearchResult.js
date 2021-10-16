@@ -53,7 +53,7 @@ function Result() {
             setErr("you don't have enough cash")
             setOpen(false);
         }
-        else if (!marketStatus()) {
+        else if (marketStatus()) {
             setErr("Market closed")
             setOpen(false);
         }
@@ -85,7 +85,7 @@ function Result() {
 
 
     function apple() {
-        if (marketStatus()) {
+        if (!marketStatus()) {
             return (<Alert variant="filled" severity="success" >
                 Market Open!
             </Alert>);
@@ -98,7 +98,7 @@ function Result() {
     }
 
     function orange() {
-        if (marketStatus()) {
+        if (!marketStatus()) {
             return (<div className={authState.loggedIn ? 'loggedin-lower-right' : 'guest-lower-right'}>
                 <p>Mid Price: {authState.display.mid ? authState.display.mid : '-'}</p>
                 <p>Ask Price: {authState.display.askPrice ? authState.display.askPrice : '-'}</p>
